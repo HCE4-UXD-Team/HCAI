@@ -4,6 +4,7 @@
 /*styles for every element on the site*/
 }
 
+/*navigator css*/
 li, a, button {
     font-family:"Lato", sans-serif;
     font-weight: normal;
@@ -23,7 +24,12 @@ header{
 body{
     margin: 0;
     padding: 0;
-    background-color: #222323;
+    background-color:#222323;
+}
+
+/*Font classes*/
+.lato{
+    font-family:"Lato", sans-serif;
 }
 
 .logo{
@@ -81,4 +87,14 @@ button:hover{
     animation-name: navlinks;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
-}   
+}  
+
+/*main-page css*/
+.black_text {
+    color: black;
+
+}
+
+.main_header{
+    text-align: center;
+}
