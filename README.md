@@ -1,5 +1,6 @@
 # HCAI
 Website for HCAI
+https://hce4-uxd-team.github.io/HCAI/
 
 
 # Color Palette

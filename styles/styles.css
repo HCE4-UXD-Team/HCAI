@@ -4,6 +4,11 @@
 /*styles for every element on the site*/
 }
 
+/*Font classes*/
+.lato{
+    font-family:"Lato", sans-serif;
+}
+
 /*navigator css*/
 li, a, button {
     font-family:"Lato", sans-serif;
@@ -25,11 +30,6 @@ body{
     margin: 0;
     padding: 0;
     background-color:#222323;
-}
-
-/*Font classes*/
-.lato{
-    font-family:"Lato", sans-serif;
 }
 
 .logo{
@@ -90,11 +90,33 @@ button:hover{
 }  
 
 /*main-page css*/
-.black_text {
-    color: black;
 
+.hometext_color {
+    color: white;
+    margin-left: 50px;
 }
 
 .main_header{
     text-align: center;
+    color: white;
 }
+
+.main_grid{
+    display: grid;
+    grid-template-areas : 
+    "header header" 
+    "content1 content2" 
+    "footer footer";
+}
+
+/*grid-box css*/
+.gridheader { 
+    grid-area: header; 
+}
+.gridcontent1 {
+    grid-area: content1; 
+}
+.gridcontent2 { 
+    grid-area: content2; 
+}
+
